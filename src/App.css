@@ -32,7 +32,18 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.danger {
+  background-color: red;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.danger-color {
+  color: orange;
 }
